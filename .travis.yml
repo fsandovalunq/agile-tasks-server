@@ -1,3 +1,4 @@
 language: java
 script:
-  - ./gradlew test build
+  - chmod +x ./gradlew
+  - ./gradlew test -i
