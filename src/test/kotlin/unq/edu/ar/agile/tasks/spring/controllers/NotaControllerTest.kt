@@ -1,6 +1,6 @@
 package unq.edu.ar.agile.tasks.spring.controllers
 
-import Elementos.Ing.AgileTasks.excepciones.NotFoundException
+import unq.edu.ar.agile.tasks.excepciones.NotFoundException
 import org.junit.Assert
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Assertions

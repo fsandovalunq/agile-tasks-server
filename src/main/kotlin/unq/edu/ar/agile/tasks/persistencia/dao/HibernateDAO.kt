@@ -1,7 +1,7 @@
 package unq.edu.ar.agile.tasks.persistencia.dao
 
-import Elementos.Ing.AgileTasks.excepciones.DuplicatedTypeException
-import Elementos.Ing.AgileTasks.excepciones.NotFoundException
+import unq.edu.ar.agile.tasks.excepciones.DuplicatedTypeException
+import unq.edu.ar.agile.tasks.excepciones.NotFoundException
 import unq.edu.ar.agile.tasks.persistencia.HibernateTransactionRunner
 import java.sql.SQLIntegrityConstraintViolationException
 import javax.persistence.criteria.CriteriaBuilder

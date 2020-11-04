@@ -28,7 +28,7 @@ class UsuarioServiceImpl: UsuarioService {
     }
 
 
-    override fun getId(id: Int): Usuario {
+    override fun getId(id: Long): Usuario {
         return runTrx {
             UserDAO.recuperarPorId(id)
         }

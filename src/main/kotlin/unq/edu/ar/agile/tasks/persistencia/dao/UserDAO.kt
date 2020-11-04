@@ -4,7 +4,7 @@ import unq.edu.ar.agile.tasks.persistencia.HibernateTransactionRunner
 import unq.edu.ar.agile.tasks.modelo.Usuario
 
 class UserDAO : HibernateDAO<Usuario>(Usuario::class.java) {
-    fun recuperarPorId(id: Int): Usuario {
+    fun recuperarPorId(id: Long): Usuario {
         val session = HibernateTransactionRunner.currentSession
         val hql = "select u from Usuario u where u.id = :pId"
         val query = session.createQuery(hql, Usuario::class.java)
